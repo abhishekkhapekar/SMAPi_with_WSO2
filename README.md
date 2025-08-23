@@ -29,17 +29,6 @@ It demonstrates **API rate-limiting with premium upgrade flow** for seamless mon
 - Docker (optional)  
 - WSO2 API Manager & IAM
 
-## ⚠️ Rate Limits:
-
--Free users → 100 API calls/day
--Premium users → Unlimited access
-
-##🔐 Authentication & Access Control
-
--User login & registration managed via WSO2 Identity Server
--JWT issued by WSO2 for API authentication
--WSO2 API Manager enforces rate-limiting policies
-
 
 ### 🔹 Backend Setup  
 ```bash
