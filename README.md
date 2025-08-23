@@ -40,7 +40,7 @@ cd SMAPi_with_WSO2/backend
 ./mvnw spring-boot:run
 
 cd ../frontend
-npm install
-npm run start
+cd smapi_frontend
+npm start
 
 
