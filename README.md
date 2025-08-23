@@ -33,7 +33,7 @@ It demonstrates **API rate-limiting with premium upgrade flow** for seamless mon
 ### 🔹 Backend Setup  
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/SMAPi_with_WSO2.git
+git clone https://github.com/abhishekkhapekar/SMAPi_with_WSO2.git
 cd SMAPi_with_WSO2/backend
 
 # Run Spring Boot app
