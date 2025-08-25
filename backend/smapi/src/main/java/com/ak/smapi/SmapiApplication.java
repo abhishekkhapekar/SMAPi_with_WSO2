@@ -9,5 +9,4 @@ public class SmapiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SmapiApplication.class, args);
 	}
-
 }

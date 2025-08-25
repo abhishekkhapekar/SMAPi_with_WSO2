@@ -15,7 +15,7 @@ public class IndexPerformance {
     private Long id;
 
     private String indexName;
-    private Double lastValue;
+    private String lastValue;
     private String change;
     private Double percentChange;
     private String peRatio;
@@ -39,11 +39,11 @@ public class IndexPerformance {
         this.indexName = indexName;
     }
 
-    public Double getLastValue() {
+    public String getLastValue() {
         return lastValue;
     }
 
-    public void setLastValue(Double lastValue) {
+    public void setLastValue(String lastValue) {
         this.lastValue = lastValue;
     }
 
