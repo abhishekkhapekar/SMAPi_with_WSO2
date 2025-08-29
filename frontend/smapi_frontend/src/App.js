@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import Dashboard from './components/loginPage/Dashboard';
 
 function App() {
   return (
-          <h1>Welcome to SMAPI</h1>
-        
+         <Dashboard/>
   );
 }
 

@@ -1,0 +1,122 @@
+.dashboard-container { 
+  padding: 24px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.report-header { 
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%); 
+  color: #fff; 
+  border-radius: 16px; 
+  padding: 20px 24px; 
+  margin-bottom: 20px; 
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.25); 
+}
+
+.report-title { 
+  font-size: 1.5rem; 
+  margin: 0 0 4px; 
+}
+
+.report-subtitle { 
+  margin: 0; 
+  opacity: 0.9; 
+  font-size: 0.95rem; 
+}
+
+.button-row { 
+  display: grid; 
+  grid-template-columns: repeat(5, minmax(0, 1fr)); 
+  gap: 12px; 
+  margin-bottom: 16px; 
+}
+
+.view-button { 
+  background-color: #f8f9fa; 
+  color: #0d6efd; 
+  border: 1px solid rgba(13, 110, 253, 0.25); 
+  font-weight: 600; 
+  padding: 10px 12px; 
+  border-radius: 12px; 
+  transition: transform 0.15s ease, background-color 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.view-button:hover { 
+  background-color: #e7f1ff; 
+  transform: translateY(-1px); 
+  box-shadow: 0 6px 14px rgba(13, 110, 253, 0.15); 
+}
+
+.view-button--active { 
+  background-color: #0d6efd; 
+  color: #fff; 
+  border-color: #0d6efd; 
+  box-shadow: 0 6px 16px rgba(13, 110, 253, 0.35); 
+}
+
+.list-wrapper { 
+  background: #ffffff; 
+  border: 1px solid #e9ecef; 
+  border-radius: 16px; 
+  padding: 16px; 
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05); 
+}
+
+.list-header { 
+  padding: 8px 4px 14px; 
+}
+
+.list-title { 
+  font-size: 1.125rem; 
+  color: #212529; 
+}
+
+.view-badge { 
+  background-color: #f1f3f5; 
+  color: #0d6efd; 
+  border: 1px solid rgba(13, 110, 253, 0.25); 
+  padding: 8px 10px; 
+  border-radius: 999px; 
+  font-weight: 600; 
+}
+
+.table-section { 
+  overflow-x: auto; 
+}
+
+.custom-table { 
+  margin: 0; 
+  border-collapse: separate; 
+  border-spacing: 0; 
+}
+
+.custom-table thead th { 
+  background: #f8f9fa; 
+  position: sticky; 
+  top: 0; 
+  z-index: 1; 
+  color: #495057; 
+  font-weight: 700; 
+}
+
+.custom-table tbody tr:hover { 
+  background-color: #f6f9ff; 
+}
+
+@media (max-width: 992px) { 
+  .button-row { 
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  }
+}
+
+@media (max-width: 576px) { 
+  .dashboard-container { 
+    padding: 16px; 
+  }
+  .button-row { 
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  }
+  .report-title { 
+    font-size: 1.25rem; 
+  }
+}
